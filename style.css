@@ -1,15 +1,60 @@
-.calculator-container {
-    background-color: blue;
+body {
+    background-image: url('grass.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
 }
 
-.calculator-screen {
-    font-size: 60px;
+#calculator-container {
+    border: 3px solid black;
+    width: fit-content; /* Automatically adjusts to content width */
+    height: fit-content; /* Automatically adjusts to content height */
+    margin: auto;
+    border-radius: 20px;
+}
+
+#calculator-screen {
+    border-radius: 20px;
+    font-size: 48px;
+    font-family: 'Single Day';
     color: black;
+    margin-top: 23px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 14px;
+    border: 3px solid black;
+    width: 202px; /* Adjust to fit inside the calculator container */
+    height: 60px;
+    text-align: right; /* Aligns text to the right for a calculator look */
+    padding: 10px; /* Adds some space inside */
+    box-sizing: border-box; /* Ensures padding doesn’t increase its size */
+}
+
+#button-container {
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    display: grid;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    height: auto;
+    width: 202px;
+    gap: 14px; /* Adds both horizontal and vertical spacing */
+}
+
+#equal {
+    grid-column: span 2; /* Make the "=" button span two columns */
+    width: 100%;
 }
 
 .button {
-    font-size: 30px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-family: 'Single Day';
+    font-size: 20px;
+    text-align: center; 
     color: white;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
 }
 
 /* colours */
