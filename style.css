@@ -1,0 +1,39 @@
+.calculator-container {
+    background-color: blue;
+}
+
+.calculator-screen {
+    font-size: 60px;
+    color: black;
+}
+
+.button {
+    font-size: 30px;
+    color: white;
+}
+
+/* colours */
+.dark-blue {
+    background-color: #1E05AB;
+}
+.blue {
+    background-color: #00CCDF;
+}
+.teal {
+    background-color: #5EA797;
+}
+.pastel-green {
+    background-color: #C0FFCC;
+}
+.red {
+    background-color: #EE005C;
+}
+.neon-green {
+    background-color: #00E831;
+}
+.yellow {
+    background-color: #EBCA2A;
+}
+.dark-green {
+    background-color: #183A31;
+}
