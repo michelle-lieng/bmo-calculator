@@ -2,6 +2,12 @@ body {
     background-image: url('grass.jpg'); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the whole screen */
     background-position: center; /* Centers the image */
+    height: 100vh; /* This means that the body will take 100% of the visible screen height (viewport height) */
+    /* And now we can center it using flexbox! */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 0; /* Removes default margin */
 }
 
 #calculator-container {
