@@ -30,8 +30,8 @@ body {
     border: 3px solid black;
     width: 202px; /* Adjust to fit inside the calculator container */
     height: 60px;
+    padding-right: 10px;
     text-align: right; /* Aligns text to the right for a calculator look */
-    padding: 10px; /* Adds some space inside */
     box-sizing: border-box; /* Ensures padding doesn’t increase its size */
 }
 
@@ -46,9 +46,9 @@ body {
     gap: 14px; /* Adds both horizontal and vertical spacing */
 }
 
-#equal {
-    grid-column: span 2; /* Make the "=" button span two columns */
-    width: 100%;
+[data-type="equal"] {
+    grid-column: span 2 !important; /* Make the "=" button span two columns */
+    width: 100% !important;
 }
 
 .button {
@@ -61,6 +61,8 @@ body {
     width: 40px;
     height: 40px;
     padding: 0px;
+    pointer-events: auto; /* Ensure buttons are clickable */
+    cursor: pointer; /* Shows hand cursor on hover */
 }
 
 /* colours */

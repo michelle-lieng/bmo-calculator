@@ -9,34 +9,33 @@
     </head>
     <body>
         <div class = "teal" id="calculator-container">
-            <div>
-                <input class = "pastel-green" id="calculator-screen" type="text" name="input" placeholder="0" disabled>
-            </div>
+            <div class = "pastel-green" id="calculator-screen">0</div>
             <div id="button-container">
-                <button class="button dark-green" type="button">CLR</button>
-                <button class="button dark-green" type="button">DEL</button>
-                <button class="button dark-green" type="button">%</button>
-                <button class="button dark-blue" type="button">/</button>
+                <button class="button dark-green" data-type= "clear" type="button">CLR</button>
+                <button class="button dark-green" data-type= "delete" type="button">DEL</button>
+                <button class="button dark-green" data-type= "percentage" type="button">%</button>
+                <button class="button dark-blue" data-type= "operator" type="button">/</button>
 
-                <button class="button teal" type="button">7</button>
-                <button class="button yellow" type="button">8</button>
-                <button class="button teal" type="button">9</button>
-                <button class="button teal" type="button">*</button>
+                <button class="button teal" data-type= "number" type="button">7</button>
+                <button class="button yellow" data-type= "number" type="button">8</button>
+                <button class="button teal" data-type= "number" type="button">9</button>
+                <button class="button teal" data-type= "operator" type="button">*</button>
 
-                <button class="button yellow" type="button">4</button>
-                <button class="button yellow" type="button">5</button>
-                <button class="button yellow" type="button">6</button>
-                <button class="button neon-green" type="button">-</button>
+                <button class="button yellow" data-type= "number" type="button">4</button>
+                <button class="button yellow" data-type= "number" type="button">5</button>
+                <button class="button yellow" data-type= "number" type="button">6</button>
+                <button class="button neon-green" data-type= "operator" type="button">-</button>
 
-                <button class="button teal" type="button">1</button>
-                <button class="button yellow" type="button">2</button>
-                <button class="button blue" type="button">3</button>
-                <button class="button teal" type="button">+</button>
+                <button class="button teal" data-type= "number" type="button">1</button>
+                <button class="button yellow" data-type= "number" type="button">2</button>
+                <button class="button blue" data-type= "number" type="button">3</button>
+                <button class="button teal" data-type= "operator" type="button">+</button>
 
-                <button class="button dark-blue" type="button">.</button>
-                <button class="button dark-blue" type="button">0</button>
-                <button class="button red" id = "equal" type="button">=</button>
+                <button class="button dark-blue" data-type= "decimal" type="button">.</button>
+                <button class="button dark-blue" data-type= "number" type="button">0</button>
+                <button class="button red" data-type="equal" type="button">=</button>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
