@@ -9,7 +9,11 @@
     </head>
     <body>
         <div class = "teal" id="calculator-container">
-            <div class = "pastel-green" id="calculator-screen">0</div>
+            <div class = "pastel-green" id="calculator-screen">
+            <!-- Adding two div elements so that there are 2 lines in the calculator box -->
+                <div id="formula-display">-</div> <!-- Formula Display -->
+                <div id="input-display">0</div> <!-- Current Input Display -->
+            </div>
             <div id="button-container">
                 <button class="button dark-green" data-type= "clear" type="button">CLR</button>
                 <button class="button dark-green" data-type= "delete" type="button">DEL</button>

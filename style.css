@@ -29,10 +29,23 @@ body {
     margin-bottom: 14px;
     border: 3px solid black;
     width: 202px; /* Adjust to fit inside the calculator container */
-    height: 60px;
+    height: 100px;
     padding-right: 10px;
     text-align: right; /* Aligns text to the right for a calculator look */
     box-sizing: border-box; /* Ensures padding doesn’t increase its size */
+}
+
+#formula-display {
+    font-size: 30px;
+    font-family: 'Single Day';
+    color: darkslategrey;
+
+}
+
+#input-display {
+    font-size: 48px;
+    font-family: 'Single Day';
+    color: black;
 }
 
 #button-container {
