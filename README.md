@@ -20,6 +20,8 @@ This was my **first project using HTML, CSS, and JavaScript**, and also my **fir
 
 📹 Watch MVP1 in action:
 
+https://github.com/user-attachments/assets/713106b6-257b-427e-b0a5-fb21db263538
+
 ---
 
 ### MVP 2: Smarter BMO Calculator (in progress!)
@@ -33,6 +35,8 @@ This was my **first project using HTML, CSS, and JavaScript**, and also my **fir
 - Fixed several edge cases for better calculation accuracy
 
 📹 Watch MVP2 in action:
+
+https://github.com/user-attachments/assets/65b65d4d-f883-4b9b-b33b-22616bbdf6e7
 
 ## 🔧 Future steps:
 
