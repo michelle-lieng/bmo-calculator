@@ -176,7 +176,7 @@ calculatorButtons.addEventListener("click", function(event) {
             let i = 0;
             let result = [];
             while (i<(processed_tokens.length)) {
-                if ((processed_tokens[i] === "*") || (processed_tokens[i] === "%")) {
+                if ((processed_tokens[i] === "*") || (processed_tokens[i] === "/")) {
                     previous_num = processed_tokens[i-1];
                     after_num = processed_tokens [i+1];
                     if (processed_tokens[i] === "*") {
